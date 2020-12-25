@@ -29,4 +29,23 @@ fn();
 </p>
 </details>
 
+
+###### 1. 输出是什么？
+
+```javascript
+['1', '2', '3'].map(parseInt)
+```
+
+<details>
+<summary><b>答案</b></summary>
+<p>
+#### 答案: [1, NaN, NaN]
+
+map函数的第一个参数callback,可以接收三个参数，其中第一个参数代表当前被处理的元素，而第二个参数代表该元素的索引。
+parseInt是用来解析字符串，使字符串成为指定基数的整数<i>parseInt(string, radix)</i>,接收两个参数，第一个表示被处理的值（字符串），第二个表示为解析时的基数。
+</p>
+</details>
+
+
+
 ---
