@@ -85,6 +85,7 @@ console.log('script end');
 # 宏任务主要包含：script、setTimeout、setInterval、I/O、UI交互事件、setImmediate(Node.js 环境)
 # 微任务主要包含：Promise、MutaionObserver、process.nextTick(Node.js 环境)
 
+![Image text](https://github.com/lazy-free/questions/blob/main/static/%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E6%B5%81%E7%A8%8B.png)
 
 </p>
 </details>
